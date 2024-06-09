@@ -79,7 +79,7 @@ const MobileNav = () => {
                         <div
                           key={item.name}
                           className='group relative text-sm'>
-                          <div className='relative aspect-square overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75'>
+                          <div className='relative aspect-video overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75'>
                             <Image
                               fill
                               src={item.imageSrc}
