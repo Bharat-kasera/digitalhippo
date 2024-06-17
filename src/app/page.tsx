@@ -1,5 +1,6 @@
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import ProductReel from '@/components/ProductReel'
+import { AppProgressBar as ProgressBar } from 'next-nprogress-bar';
 import {
   Button,
   buttonVariants,

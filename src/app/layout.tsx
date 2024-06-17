@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar'
 import Providers from '@/components/Providers'
 import { cn, constructMetadata } from '@/lib/utils'
 import type { Metadata } from 'next'
+import NextTopLoader from 'nextjs-toploader';
 import { Inter } from 'next/font/google'
 import { Toaster } from 'sonner'
 import './globals.css'
@@ -25,6 +26,7 @@ export default function RootLayout({
         )}>
         <main className='relative flex flex-col min-h-screen'>
           <Providers>
+          <NextTopLoader color="#59a2ff"  />
             <Navbar />
             <div className='flex-grow flex-1'>
               {children}
